@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Transactional Key Value Store"
+include ':app'
+include ':data'
+include ':core:di'
+include ':core:test'
+include ':repository'
+include ':feature:cli:domain'
+include ':feature:cli:ui'
+include ':core:ui'

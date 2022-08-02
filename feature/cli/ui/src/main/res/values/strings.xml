@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_command_error">Please enter a command</string>
+    <string name="key_param_required_error">Key parameter required</string>
+    <string name="value_param_required_error">Value parameter required</string>
+    <string name="entry_does_not_exist_error">An entry associated with the passed key does not exist</string>
+    <string name="no_transaction_error">There is no active transaction</string>
+    <string name="unknown_command_error">Unknown command</string>
+    <string name="command_entry_field_label">Enter a command</string>
+    <string name="submit_button_content_description">Submit command</string>
+</resources>
