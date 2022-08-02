@@ -2,6 +2,8 @@
 
 An app that implements the following spec using an in-memory data store with the limitation of not using any third-party libraries.
 
+Download the APK [here](https://github.com/MichaelM97/Transactional-Key-Value-Store/releases/tag/1.0.0).
+
 ```
 SET <key> <value> // store the value for key
 GET <key>         // return the current value for key
